@@ -35,7 +35,7 @@ body {
     color:#fff;
 }
 .img-PiperNet {
-    background-image: url(img/Jumbotron.jpg);
+    background-image: url(../img/Jumbotron.jpg);
     height: 403px;
 }
 .img-PiperNet__text {
@@ -62,7 +62,7 @@ body {
     padding: 0 55px;
 }
 .supercomputer {
-    background-image: url(img/flash.jpg);
+    background-image: url(../img/flash.jpg);
     height: 483px;
 }
 .supercomputer p {
