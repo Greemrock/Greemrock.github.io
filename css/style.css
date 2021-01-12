@@ -114,6 +114,7 @@ body {
     margin-top: 12px;
 } 
 .teammate h3 {
+    font-style: italic;
     font-size: 18px;
     font-weight: 400;
     color: #000;
