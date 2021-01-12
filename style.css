@@ -1,0 +1,141 @@
+body {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+    min-width: 960px;
+    margin: auto;
+    background-color: #e1e1e1;
+}
+.header__top {
+    background-color: #007765;
+    padding: 20px 55px;
+    display:flex;
+    justify-content: space-between;
+}
+.header__logo a{
+    display: flex;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.header__nav-link {
+    font-size: 24px;
+    font-weight: 500;
+    color:#fff;
+}
+.header__nav-link a {
+    padding: 0 5px;
+    text-decoration: none;
+    color:#fff;
+}
+.img-PiperNet {
+    background-image: url(img/Jumbotron.jpg);
+    height: 403px;
+}
+.img-PiperNet__text {
+    font-size: 72px;
+    font-weight: 500;
+    color: #fff;
+}
+.theProblem {
+    background-color: #fff;  
+    padding-bottom: 92px;
+}
+.theProblem h1{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    color: #007765;
+    margin: 0;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+.theProblem p{
+    font-size: 32px;
+    font-weight: 400;
+    padding: 0 55px;
+}
+.supercomputer {
+    background-image: url(img/flash.jpg);
+    height: 483px;
+}
+.supercomputer p {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 163px;
+}
+.piedPiperCoin {
+    background-color: #fff;  
+    padding-bottom: 92px;
+}
+.piedPiperCoin h1 {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    color: #007765;
+    margin: 0;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+.piedPiperCoin p {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 0 55px;
+}
+.piedPiperCoin img {
+    float: left;
+    padding: 0 50px 0 55px;
+}
+.team {
+    background-color: #EEEEEE;
+    padding: 0 120px 92px 120px;
+}
+.team h1 {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    color: #007765; 
+    margin: 0;
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+.teammate h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #007765;
+    margin-top: 12px;
+} 
+.teammate h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+.teammate {
+    flex-direction: column;
+}
+.container {
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 320px 320px 320px;
+}
+.footer {
+    background-color: #333;
+    padding: 40px 0;
+}
+.footer p {
+    width: 540px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
